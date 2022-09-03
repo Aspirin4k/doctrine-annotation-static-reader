@@ -1,0 +1,19 @@
+{
+    "name": "r.ushakov/doctrine-annotation-static-reader",
+    "autoload": {
+        "psr-4": {
+            "AnnotationStaticReader\\": "src/",
+            "AnnotationStaticReader\\Example\\": "example/"
+        }
+    },
+    "authors": [
+        {
+            "name": "r.ushakov",
+            "email": "ruiperm@pm.me"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.10",
+        "doctrine/annotations": "^1.13"
+    }
+}
