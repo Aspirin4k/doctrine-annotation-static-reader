@@ -21,3 +21,5 @@ $config->setMetadataDriverImpl(
     )
 );
 ```
+
+Basically you want to use this driver only for production. Add call of this script into Build stage of your CI/CD.
